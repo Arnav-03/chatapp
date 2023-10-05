@@ -47,7 +47,7 @@ const Chat = () => {
         ws.addEventListener('close', () => {
           setTimeout(() => {
             console.log('trying to reconnect');
-            connectToWs();
+            connectTOWs();
           }, 1000);
         });
       }
